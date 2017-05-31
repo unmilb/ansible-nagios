@@ -4,6 +4,7 @@
 # where ansible will deploy it.
 [nagios]
 192.168.109.146
+192.168.109.144
 
 # use this for generic Linux servers
 [servers]
