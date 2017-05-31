@@ -29,6 +29,7 @@ host1 ansible_host=192.168.109.144
 # for correct syntax as you'll also need ip address
 # e.g. web02-ipmi ansible_host=1.2.3.4
 [oobservers]
+host1 ansible_host=192.168.109.144
 
 # Dell idrac health checks for the physical server
 # connected to it, see install/group_vars/all.yml
