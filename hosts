@@ -4,7 +4,7 @@
 # where ansible will deploy it.
 [nagios]
 192.168.109.146
-192.168.109.144
+#192.168.109.144
 
 # use this for generic Linux servers
 [servers]
@@ -23,6 +23,8 @@
 # e.g. hostname
 # switch01 ansible_host=1.2.3.3
 [switches]
+ubuntu@192.168.109.144
+
 
 # icmp and http checks, see the README
 # for correct syntax as you'll also need ip address
