@@ -11,6 +11,7 @@
 
 # inherits servers checks, includes http
 [webservers]
+host1
 
 # elasticsearch, logstash, kibana servers
 [elkservers]
